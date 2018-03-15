@@ -1,3 +1,7 @@
+body{
+    background: #eceff1;
+}
+
 #calc-wrapper{
     background: black;
     margin: 10% auto;
@@ -13,8 +17,8 @@
     border-radius: 10px;
     margin: 15px auto;
     box-sizing: border-box;
-    padding: 5px;
-    
+    padding: 10px;
+    opacity: 0.9;
 }
 #keys {
     justify-content: center;
@@ -35,7 +39,12 @@
     border-radius: 8px;
     box-sizing: border-box;
     border: none;
-  
+    outline: none;
+    box-shadow: 0 2px #999;
+}
+#keys button:active{
+  box-shadow: 0 0.5px #666;
+  transform: translateY(2px);
 }
 
 #keys p{
